@@ -8,7 +8,8 @@ public class CarpmaTest {
 
 	@Test
 	public void testIslemYap() {
-		fail("Not yet implemented");
+		int sonuc = Carpma.islemYap(80, 90);
+		assertEquals(-10,sonuc);
 	}
 
 }

@@ -8,7 +8,8 @@ public class ToplamaTest {
 
 	@Test
 	public void testIslemYap() {
-		fail("Not yet implemented");
+		int sonuc = Toplama.islemYap(80, 90);
+		assertEquals(-10,sonuc);
 	}
 
 }

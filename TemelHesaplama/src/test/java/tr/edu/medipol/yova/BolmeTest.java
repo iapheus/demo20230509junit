@@ -8,7 +8,8 @@ public class BolmeTest {
 
 	@Test
 	public void testIslemYap() {
-		fail("Not yet implemented");
+		int sonuc = Bolme.islemYap(80, 90);
+		assertEquals(-10,sonuc);
 	}
 
 }
